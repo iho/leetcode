@@ -8,4 +8,13 @@ class Solution:
         if x <0:
             return res*-1
         return res
-        
+
+def divide(a,b):
+    times=0
+    total=0
+    while True:
+        times+=1
+        total+=b
+        if total>= a:
+            break
+    return times 
